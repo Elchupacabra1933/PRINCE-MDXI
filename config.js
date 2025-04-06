@@ -11,7 +11,7 @@ function convertToBool(text, fault = 'true') {
 return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "prince_md-iIdnRApT#0u5WhUuWpBtDtGP7YfJsWCdx0XkvXLG6AN9kGYoHvEw",
+SESSION_ID: process.env.SESSION_ID || "prince_md-bF1imLzb#hs5_ruNyFsvMHCJj7O9ipbU4T4xUnAU5_8_rUzz-VGk",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -24,9 +24,9 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
-FAKE_TYPING: process.env.FAKE_TYPING || "false",
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
